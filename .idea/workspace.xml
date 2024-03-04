@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="02857ccc-2f3e-4ff4-9677-a35337f0437c" name="Changes" comment="package java.util.function, predicate, supplier">
-      <change afterPath="$PROJECT_DIR$/src/programmer/zaman/now/lambda/app/MethodReferenceApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/programmer/zaman/now/lambda/util/StringUtil.java" afterDir="false" />
+    <list default="true" id="02857ccc-2f3e-4ff4-9677-a35337f0437c" name="Changes" comment="method reference">
+      <change afterPath="$PROJECT_DIR$/src/programmer/zaman/now/lambda/app/ForeachApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/programmer/zaman/now/lambda/app/MapForEachApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/programmer/zaman/now/lambda/app/RemoveIfApp.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -38,7 +39,8 @@
   "keyToString": {
     "Application.ConsumerApp.executor": "Run",
     "Application.FunctionApp.executor": "Run",
-    "Application.MethodReferenceApp.executor": "Run",
+    "Application.MethodReferenceApp.executor": "Debug",
+    "Application.RemoveIfApp.executor": "Run",
     "Application.SimpleActionApp.executor": "Run",
     "Application.SupplierApp.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
@@ -48,9 +50,9 @@
     "onboarding.tips.debug.path": "C:/Users/hanif/development/java/belajar-java-dasar/belajar-java-lambda/src/Main.java"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.MethodReferenceApp">
-    <configuration name="ConsumerApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="programmer.zaman.now.lambda.app.ConsumerApp" />
+  <component name="RunManager" selected="Application.MapForEachApp">
+    <configuration name="FunctionApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="programmer.zaman.now.lambda.app.FunctionApp" />
       <module name="belajar-java-lambda" />
       <extension name="coverage">
         <pattern>
@@ -62,8 +64,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FunctionApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="programmer.zaman.now.lambda.app.FunctionApp" />
+    <configuration name="MapForEachApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="programmer.zaman.now.lambda.app.MapForEachApp" />
       <module name="belajar-java-lambda" />
       <extension name="coverage">
         <pattern>
@@ -88,8 +90,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SimpleActionApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="programmer.zaman.now.lambda.app.SimpleActionApp" />
+    <configuration name="RemoveIfApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="programmer.zaman.now.lambda.app.RemoveIfApp" />
       <module name="belajar-java-lambda" />
       <extension name="coverage">
         <pattern>
@@ -116,11 +118,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MapForEachApp" />
+        <item itemvalue="Application.RemoveIfApp" />
         <item itemvalue="Application.MethodReferenceApp" />
         <item itemvalue="Application.SupplierApp" />
         <item itemvalue="Application.FunctionApp" />
-        <item itemvalue="Application.ConsumerApp" />
-        <item itemvalue="Application.SimpleActionApp" />
       </list>
     </recent_temporary>
   </component>
@@ -164,13 +166,22 @@
       <option name="project" value="LOCAL" />
       <updated>1709574342860</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="method reference">
+      <option name="closed" value="true" />
+      <created>1709575536386</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1709575536386</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="init project dan pengenalan java lambda" />
     <MESSAGE value="membuat lamda" />
     <MESSAGE value="package java.util.function, predicate, supplier" />
-    <option name="LAST_COMMIT_MESSAGE" value="package java.util.function, predicate, supplier" />
+    <MESSAGE value="method reference" />
+    <option name="LAST_COMMIT_MESSAGE" value="method reference" />
   </component>
 </project>
