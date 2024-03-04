@@ -6,20 +6,39 @@ public class SimpleActionApp {
 
     public static void main(String[] args) {
 
-        SimpleAction simpleAction1 = new SimpleAction() {
-            @Override
-            public String action() {
-                return "Hanif";
-            }
+//        SimpleAction simpleAction1 = new SimpleAction() {
+//            @Override
+//            public String action(String name) {
+//                return "Hanif";
+//            }
+//        };
+//
+//        System.out.println(simpleAction1.action());
+//
+//        SimpleAction simpleAction2 = (String name) -> {
+//          return "Hanif";
+//        };
+//
+//        System.out.println(simpleAction2.action("Hanif"));
+
+        //bisa tambahkan tipe data
+        SimpleAction simpleAction1 = (String value) -> {
+          return "Hello" + value  ;
         };
 
-        System.out.println(simpleAction1.action());
-
-        SimpleAction simpleAction2 = () -> {
-          return "Hanif";
+        //tanpa tipe data
+        SimpleAction simpleAction2 = (name) -> {
+            return "Hello" + name  ;
         };
 
-        System.out.println(simpleAction2.action());
-    }
+        //one line 1
+        SimpleAction simpleAction3 = (String value) -> "Hello" + value;
 
+        //one line 2
+        SimpleAction simpleAction4 = (value) -> "Hello" + value;
+
+        //one line 3
+        SimpleAction simpleAction5 = value -> "Hello" + value;
+
+}
 }
