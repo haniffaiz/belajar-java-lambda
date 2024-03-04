@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="02857ccc-2f3e-4ff4-9677-a35337f0437c" name="Changes" comment="lambda di collection">
-      <change afterPath="$PROJECT_DIR$/src/programmer/zaman/now/lambda/app/LazyApp.java" afterDir="false" />
+    <list default="true" id="02857ccc-2f3e-4ff4-9677-a35337f0437c" name="Changes" comment="lambda sebagai lazy parameter">
+      <change afterPath="$PROJECT_DIR$/src/programmer/zaman/now/lambda/app/OptionalApp.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -40,6 +40,7 @@
     "Application.LazyApp.executor": "Run",
     "Application.MapForEachApp.executor": "Run",
     "Application.MethodReferenceApp.executor": "Debug",
+    "Application.OptionalApp.executor": "Run",
     "Application.RemoveIfApp.executor": "Run",
     "Application.SimpleActionApp.executor": "Run",
     "Application.SupplierApp.executor": "Run",
@@ -50,7 +51,7 @@
     "onboarding.tips.debug.path": "C:/Users/hanif/development/java/belajar-java-dasar/belajar-java-lambda/src/Main.java"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.LazyApp">
+  <component name="RunManager" selected="Application.OptionalApp">
     <configuration name="LazyApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="programmer.zaman.now.lambda.app.LazyApp" />
       <module name="belajar-java-lambda" />
@@ -90,6 +91,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="OptionalApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="programmer.zaman.now.lambda.app.OptionalApp" />
+      <module name="belajar-java-lambda" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="programmer.zaman.now.lambda.app.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="RemoveIfApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="programmer.zaman.now.lambda.app.RemoveIfApp" />
       <module name="belajar-java-lambda" />
@@ -103,26 +117,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SupplierApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="programmer.zaman.now.lambda.app.SupplierApp" />
-      <module name="belajar-java-lambda" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="programmer.zaman.now.lambda.app.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.OptionalApp" />
         <item itemvalue="Application.LazyApp" />
         <item itemvalue="Application.MapForEachApp" />
         <item itemvalue="Application.RemoveIfApp" />
         <item itemvalue="Application.MethodReferenceApp" />
-        <item itemvalue="Application.SupplierApp" />
       </list>
     </recent_temporary>
   </component>
@@ -182,7 +183,15 @@
       <option name="project" value="LOCAL" />
       <updated>1709576808241</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="lambda sebagai lazy parameter">
+      <option name="closed" value="true" />
+      <created>1709577512059</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1709577512059</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -191,6 +200,7 @@
     <MESSAGE value="package java.util.function, predicate, supplier" />
     <MESSAGE value="method reference" />
     <MESSAGE value="lambda di collection" />
-    <option name="LAST_COMMIT_MESSAGE" value="lambda di collection" />
+    <MESSAGE value="lambda sebagai lazy parameter" />
+    <option name="LAST_COMMIT_MESSAGE" value="lambda sebagai lazy parameter" />
   </component>
 </project>
